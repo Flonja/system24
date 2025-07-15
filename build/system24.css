@@ -480,9 +480,9 @@ body {
 }
 
 @container body style(--unrounding: on) {
-    *,
-    *::before,
-    *::after {
+    *:not(img,.avatar__07f91),
+    *:not(img,.avatar__07f91)::before,
+    *:not(img,.avatar__07f91)::after {
         border-radius: 0 !important;
     }
 
@@ -495,9 +495,15 @@ body {
         display: none;
     }
 
-    .mask__68edb > foreignObject,
     .svg__44b0c > foreignObject,
     .svg__2338f > foreignObject {
+        mask: url("https://raw.githubusercontent.com/Flonja/system24/refs/heads/main/assets/profile-mask.svg");
+    }
+    .svg_cc5dd2 > foreignObject {
+        mask: url("https://raw.githubusercontent.com/Flonja/system24/refs/heads/main/assets/server-mask.svg");
+    }
+    .avatarDecoration__44b0c > foreignObject,
+    .mask__68edb > foreignObject { /* profile background */
         mask: none;
     }
 
