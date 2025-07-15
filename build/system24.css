@@ -480,9 +480,9 @@ body {
 }
 
 @container body style(--unrounding: on) {
-    *:not(img,.avatar__07f91),
-    *:not(img,.avatar__07f91)::before,
-    *:not(img,.avatar__07f91)::after {
+    *:not(img,.avatar__07f91,.icon_f34534),
+    *:not(img,.avatar__07f91,.icon_f34534)::before,
+    *:not(img,.avatar__07f91,.icon_f34534)::after {
         border-radius: 0 !important;
     }
 
