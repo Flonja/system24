@@ -480,9 +480,9 @@ body {
 }
 
 @container body style(--unrounding: on) {
-    *:not(img,.avatar__07f91,.icon_f34534),
-    *:not(img,.avatar__07f91,.icon_f34534)::before,
-    *:not(img,.avatar__07f91,.icon_f34534)::after {
+    *:not(img,.avatar__07f91,.icon_f34534), .media__41ea0,
+    *:not(img,.avatar__07f91,.icon_f34534)::before, .media__41ea0,
+    *:not(img,.avatar__07f91,.icon_f34534)::after, .media__41ea0 {
         border-radius: 0 !important;
     }
 
@@ -495,9 +495,11 @@ body {
         display: none;
     }
 
-    .svg__44b0c > foreignObject,
-    .svg__2338f > foreignObject {
+    .svg__44b0c > foreignObject {
         mask: url("https://raw.githubusercontent.com/Flonja/system24/refs/heads/main/assets/profile-mask.svg");
+    }
+    .svg__2338f > foreignObject {
+        mask: url("https://raw.githubusercontent.com/Flonja/system24/refs/heads/main/assets/group-chat-mask.svg");
     }
     .svg_cc5dd2 > foreignObject {
         mask: url("https://raw.githubusercontent.com/Flonja/system24/refs/heads/main/assets/server-mask.svg");
