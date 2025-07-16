@@ -498,7 +498,7 @@ body {
     .svg__44b0c > foreignObject {
         mask: url("https://raw.githubusercontent.com/Flonja/system24/refs/heads/main/assets/profile-mask.svg");
     }
-    .svg__2338f > foreignObject {
+    .svg__2338f:not(.mask__0fa6d) > foreignObject {
         mask: url("https://raw.githubusercontent.com/Flonja/system24/refs/heads/main/assets/group-chat-mask.svg");
     }
     .svg_cc5dd2 > foreignObject {
